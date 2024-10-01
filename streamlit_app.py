@@ -15,7 +15,7 @@ if st.button('Say Hello'):
 else:
   st.write('Goodbye')
 chart_data = pd.DataFrame(
-  np.reandom.randn(20, 3),
+  np.random.randn(20, 3),
   columns=['a','b','c'])
 
 st.line_chart(chart_data)
